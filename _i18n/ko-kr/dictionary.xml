@@ -386,10 +386,6 @@ RM-RF com.netapp.vsch5-x.x.x.xxxx 를 참조하십시오
   <block id="7b85806b0a420be4ef4e75d589a8ca84" category="paragraph"><block ref="7b85806b0a420be4ef4e75d589a8ca84" category="inline-link-rx"></block></block>
   <block id="81f1f2affe0b93927ee304ef7e0dcfe8" category="inline-link-macro">스토리지 복제 어댑터를 활성화합니다</block>
   <block id="97253b89ed0b6873167793a2fe7f5831" category="paragraph"><block ref="97253b89ed0b6873167793a2fe7f5831" category="inline-link-macro-rx"></block></block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="a51a4cb377c77fe1b8359c60eb0f4215" category="inline-link">VMware vSphere 9.8용 ONTAP 툴에 대한 고지 사항</block>
   <block id="27b448a1a6437b97cf3abfbd91024c0d" category="paragraph"><block ref="27b448a1a6437b97cf3abfbd91024c0d" category="inline-link-rx"></block></block>
   <block id="8f7be3c874feb6ef0fd5f20afd8d5fbb" category="summary">VMware vSphere용 ONTAP 툴을 사용하면 vCenter Server 환경에서 가상 데이터 저장소를 구성, 관리 및 보호할 수 있습니다.</block>
@@ -1927,4 +1923,12 @@ ONTAP 9.7 이상을 사용하는 경우 VASA Provider를 통해 OnCommand API �
   <block id="12681823486b41daa05bf9d691b0f8cd" category="sidebar">Windows SRM을 SRM 어플라이언스로 마이그레이션합니다</block>
   <block id="3d7d171ecad1cba0c2d8d707b648b023" category="sidebar">보호 및 복구 사이트를 구성합니다</block>
   <block id="6956cfc9382ccb41c8ac57f99255b409" category="sidebar">복제된 스토리지 시스템을 확인합니다</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>
