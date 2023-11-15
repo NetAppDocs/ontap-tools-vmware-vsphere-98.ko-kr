@@ -578,7 +578,6 @@ RM-RF com.netapp.vsch5-x.x.x.xxxx 를 참조하십시오
   <block id="3d7de81ead511dc0d2bd3eeb864ff231" category="paragraph">VMFS 데이터 저장소의 크기를 조정할 때 VSC에서 포함하는 볼륨의 크기를 조정하도록 하려면 VMFS 데이터 저장소를 처음 프로비저닝할 때 Storage Attributes 섹션에서 * Use existing volume * 옵션을 사용하지 말고 대신 각 데이터 저장소에 대한 새 볼륨을 자동으로 생성하도록 해야 합니다.</block>
   <block id="b6b2c55f92e8e04471c740483e69a795" category="paragraph">NFS 데이터 저장소의 크기를 늘리거나 줄일 수 있지만 VMFS 데이터 저장소의 경우 크기를 늘릴 수만 있습니다. 자동 확장 및 축소 옵션이 있는 FlexGroup 데이터 저장소에도 데이터 저장소 크기 조정이 지원됩니다. VVOL 데이터 저장소의 일부인 기존 데이터 저장소 및 FlexVol 볼륨의 일부인 FlexGroup는 기존 크기보다 축소될 수 없지만 최대 120% 성장할 수 있습니다. 이러한 FlexGroup 및 FlexVol 볼륨에서 기본 스냅샷이 활성화됩니다.</block>
   <block id="0e6fc56cbe91d72cb03e33a904ae9ab3" category="list-text">탐색 창에서 데이터 저장소가 포함된 데이터 센터를 선택합니다.</block>
-  <block id="a15d1bf5dee929fddbf2e03ae0f830e9" category="list-text">데이터 저장소를 마우스 오른쪽 버튼으로 클릭하고 * NetApp ONTAP tools * &gt; * Assign QoS * 를 선택합니다.</block>
   <block id="425e99780c82b74f333dd7da3068f492" category="list-text">크기 조정 대화 상자에서 데이터 저장소의 새 크기를 지정한 다음 * 확인 * 을 클릭합니다.</block>
   <block id="29b33d6a4971ded7e90ffb22fa8e685d" category="paragraph">스토리지 시스템 메뉴에서 * 모두 다시 검색 * 옵션을 실행하여 스토리지 시스템 및 대시보드에서 스토리지 목록을 수동으로 업데이트하거나 다음 예정된 새로 고침을 기다릴 수 있습니다.</block>
   <block id="96175e97c8c13423e6a60249fa770130" category="summary">ONTAP 툴의 기존 대시보드를 사용하여 기존 데이터 저장소와 가상 머신을 모니터링할 수 있습니다. 대시보드 데이터를 사용하여 데이터 저장소 사용량을 분석하고 수정 조치를 취하여 가상 머신이 공간 관련 제약으로 실행되지 않도록 방지할 수 있습니다.</block>
@@ -1892,7 +1891,6 @@ ONTAP 9.7 이상을 사용하는 경우 VASA Provider를 통해 OnCommand API �
   <block id="4c3c39a603eb21106d2df2836d4b456c" category="sidebar">NetApp 기술 자료 - ONTAP 툴</block>
   <block id="bbf1057ad175e1e1664e224351019ac9" category="sidebar">NetApp 가져오기 유틸리티 - 비디오</block>
   <block id="72393f9ef0b6b69526a30ac7ce5276bc" category="sidebar">NetApp 커뮤니티 - ONTAP 툴</block>
-  <block id="ed9018b2e8611a3d2c03bb6a205b9715" category="sidebar">VMware vSphere용 ONTAP 툴</block>
   <block id="4226794a7bb33ab0a2309e30c07c9031" category="sidebar">ONTAP 툴 관리</block>
   <block id="1b8a04f09ff55290753a17988fd53c2a" category="sidebar">데이터 저장소를 관리합니다</block>
   <block id="427d9ce60f4b39aa82a25138b4aa489f" category="sidebar">가상 머신 관리</block>
@@ -1931,4 +1929,5 @@ ONTAP 9.7 이상을 사용하는 경우 VASA Provider를 통해 OnCommand API �
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="bdc5a4ba1115f3f724e1f81e7f41eeef" category="list-text">데이터 저장소를 마우스 오른쪽 버튼으로 클릭하고 * NetApp ONTAP tools * &gt; * Resize non-vVols datastore * 를 선택합니다.</block>
 </blocks>
