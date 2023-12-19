@@ -107,34 +107,9 @@
   <block id="629c3602e821ea228948769460d948fb" category="doc">vSphere 캐시된 다운로드 플러그인 패키지를 지웁니다</block>
   <block id="2486f16fb02b577c6c3375ba9a93762d" category="paragraph">ONTAP 툴을 구축 또는 업그레이드한 후 플러그인이 자동으로 업데이트되지 않는 경우 vCenter Server 플러그인 문제를 해결하려면 브라우저와 vCenter Server에서 캐시된 다운로드 플러그인 패키지를 정리해야 합니다.</block>
   <block id="4839d2f25cc35b249d5db15efa1afd75" category="paragraph">* 단계 *</block>
-  <block id="928a0fc17a8823d170fddc579679a74b" category="list-text">기존 vSphere 웹 클라이언트 또는 vSphere Client에서 로그아웃합니다.</block>
   <block id="a0616a23fd099dfad3eb5032733a31a3" category="list-text">브라우저 캐시를 제거합니다.</block>
-  <block id="a81218cfa1b12253d3738424f7fe41f1" category="list-text">vSphere Client 캐시된 플러그인 패키지를 제거합니다.</block>
-  <block id="d3f8fbc38c70102f80ae8f7fad51a2ba" category="cell">* 를 사용하는 경우... *</block>
   <block id="a8ec31e018bc514e0369f015f6ef9156" category="cell">* 다음 작업을 수행합니다. *</block>
-  <block id="6022f5a040dd9eabb5e196140c0a3837" category="paragraph">Windows vCenter Server를 참조하십시오</block>
-  <block id="08ade16156fae5f96326f33fb911645a" category="paragraph">다음 폴더를 제거합니다<block ref="86cd6cbd9d0d47d7701fb50d3f70f725" prefix=" " category="inline-code"></block>,<block ref="1581668028da892face35824bf9266d3" prefix=" " category="inline-code"></block>, 및<block ref="35fc60e3d9ae3cc80b3a81a17eaab868" prefix=" " category="inline-code"></block> 위치:</block>
-  <block id="c50bfe91c2a67370ca4e01f0fbcaa60b" category="list-text">vSphere Web Client 경로:<block ref="c0fbb42d44e85481a39b542554c38c99" prefix=" " category="inline-code"></block></block>
-  <block id="dd286c989dcb346e3dcbcdcffb367513" category="list-text">vSphere Client(HTML5) 경로:<block ref="4cf617a45d429a3b37bec630c8f82740" prefix=" " category="inline-code"></block></block>
-  <block id="32b6ae27b932f6df4adc3773921186b2" category="paragraph">VCSA</block>
   <block id="7828ebc558b735f6dff95945a2060819" category="list-text">VCSA 어플라이언스에 SSH로 연결합니다.</block>
-  <block id="c2893b865600d46b6cf4853c3e95aaef" category="list-text">를 사용하여 vCenter 웹 클라이언트 UI 확장 디렉토리로 디렉토리를 변경합니다<block ref="75825b06e1ee39dd4ad04d42ac5347a5" prefix=" " category="inline-code"></block></block>
-  <block id="c967b27fa47f0711ff8f4f94f6001d1c" category="list-text">를 사용하여 NetApp과 관련된 캐시된 플러그인 패키지를 제거합니다<block ref="373d5cc730dd449760c437daf3d5a6d5" prefix=" " category="inline-code"></block> 명령:
-예: 여기 x.x.x.xxxx가 플러그인 버전입니다.
---
- RM-RF com.netapp.vasa.vvol.webclient-x.x.x.xxxx 를 참조하십시오
- RM-RF com.netapp.nvpf.webclient-x.x.x.xxxx 를 참조하십시오
- RM-RF com.netapp.vsch5-x.x.x.xxxx 를 참조하십시오
---</block>
-  <block id="58068878d43aa1275186e320e39c8f61" category="list-text">를 사용하여 디렉토리를 vCenter 클라이언트(HTML5) UI 확장 디렉토리로 변경합니다<block ref="75825b06e1ee39dd4ad04d42ac5347a5" prefix=" " category="inline-code"></block></block>
-  <block id="e8472057a9b51ca61b841e7cba26f994" category="list-text">를 사용하여 NetApp 플러그인과 관련된 캐시된 플러그인 패키지를 제거합니다<block ref="373d5cc730dd449760c437daf3d5a6d5" prefix=" " category="inline-code"></block> 명령:
-예: 여기 x.x.x.xxxx가 플러그인 버전입니다
- --
-RM-RF com.netapp.vasa.vvol.webclient-x.x.x.xxxx 를 참조하십시오
-RM-RF com.netapp.nvpf.webclient-x.x.x.xxxx 를 참조하십시오
-RM-RF com.netapp.vsch5-x.x.x.xxxx 를 참조하십시오
- --</block>
-  <block id="04817d905fd962e9edfde7e6036e0241" category="list-text">다음 명령을 사용하여 vSphere에 로그인하고 vSphere Web Client 및 vSphere Client 서비스를 다시 시작합니다.</block>
   <block id="6f09e89fc23fe62b14a19eb0d48c896b" category="summary">VMware vSphere용 ONTAP 툴의 9.x 릴리즈는 최신 버전으로 현재 위치 업그레이드를 지원합니다.</block>
   <block id="bdb4f545119e3b74433b33e690e61b23" category="paragraph">ONTAP 툴과 같은 개별 애플리케이션의 이전 릴리즈에서는 다른 업그레이드 프로세스를 사용합니다. 설정에 VSC 또는 VASA Provider 또는 SRA가 설치되어 있는 경우 다음 작업을 수행해야 합니다.</block>
   <block id="0aed96d12200abba996f178b4112706d" category="list-text">ONTAP 툴의 최신 릴리즈 배포</block>
@@ -1930,4 +1905,13 @@ ONTAP 9.7 이상을 사용하는 경우 VASA Provider를 통해 OnCommand API �
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="bdc5a4ba1115f3f724e1f81e7f41eeef" category="list-text">데이터 저장소를 마우스 오른쪽 버튼으로 클릭하고 * NetApp ONTAP tools * &gt; * Resize non-vVols datastore * 를 선택합니다.</block>
+  <block id="bec4fe8b0a1c02393fd0700875750a56" category="list-text">기존 vSphere 웹 클라이언트 또는 vSphere-UI에서 로그아웃합니다.</block>
+  <block id="fae0172133f0506cbb207e15e1eb4aef" category="list-text">vSphere Client 캐시된 플러그인 패키지를 제거합니다. VCSA의 경우 다음을 수행합니다.</block>
+  <block id="a8f3b27f04ef4962a5caf70a06ae28fb" category="list-text">VMware vSphere Client 서비스를 중지합니다.<block ref="4ad331c0aae87e53252a4e9c0fb7b3fe" prefix=" " category="inline-code"></block></block>
+  <block id="2096eb0aa64e2928992af27ac4402e59" category="list-text">디렉토리를 vCenter 클라이언트 UI 확장 디렉토리로 변경합니다.<block ref="877ddb80b516a509c7c154978a1ff7ee" prefix=" " category="inline-code"></block></block>
+  <block id="dc37c1c22c04fc5e7386e3092519eac8" category="list-text">를 사용하여 NetApp과 관련된 캐시된 플러그인 패키지를 제거합니다<block ref="373d5cc730dd449760c437daf3d5a6d5" prefix=" " category="inline-code"></block> 명령:</block>
+  <block id="ea51a159279a27e3f4ac4547881ff688" category="paragraph"><block ref="91fa5c8593259f0cb6f0845470d72256" prefix="" category="inline-code"></block></block>
+  <block id="5e9e6efcbe65718c4f8940b263317a69" category="paragraph"><block ref="7f4891afcb11aecd70e2cfd4c1573829" prefix="" category="inline-code"></block></block>
+  <block id="5547d8d27b62c49e4555e1f79122a342" category="paragraph"><block ref="9e427bf42ac054021120757914ef1809" prefix="" category="inline-code"></block></block>
+  <block id="b8ace162f3094fd5ac1138ced112d7a7" category="list-text">VMware vSphere Client 서비스를 시작합니다.<block ref="bfbe7f4b006f6fcfc7bb66e075309067" prefix=" " category="inline-code"></block></block>
 </blocks>
