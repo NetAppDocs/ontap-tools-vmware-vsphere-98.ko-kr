@@ -18,7 +18,7 @@ settings:
     url: "/ontap-tools-vmware-vsphere-911"
   - version-number: '9.10'
     url: "/ontap-tools-vmware-vsphere-910"
-  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
   - title: VMware vSphere 9.8 문서를 위한 ONTAP 툴
